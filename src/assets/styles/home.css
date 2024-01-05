@@ -1,0 +1,39 @@
+.inline{
+    display:inline-block;
+}
+.nav-logo{
+    height: 50px;
+    
+}
+
+.nav-bar{
+    background-color:#5cdb95 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-ul-div{
+    margin-top: 0;
+}
+
+.nav-ul{
+    list-style-type: none;
+    overflow:hidden ;
+    margin-left: -40%;
+    
+}
+
+.nav-li{
+    color:#05386b;
+    float: left;
+    padding: 10px 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 50px;
+}
+
+.nav-li:hover{
+    background-color:#05386b;
+    color:#5cdb95;
+    border-radius: 10px;
+}

@@ -1,0 +1,16 @@
+
+/* @font-face {
+    font-family: 'Philosopher';
+    font-style: ;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url("/fonts/Philosopher/Philosopher-Regular.ttf")format('ttf');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} */
+
+@font-face {
+    font-family: 'Philosopher';
+    src: local('Philosopher'),
+         url('./fonts/Philosopher.ttf') format('ttf');
+} /*TODO: Want to add fonts style to*/ 
